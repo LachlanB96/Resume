@@ -1,0 +1,66 @@
+
+.section {
+  height: 100%;
+  width: 100%;
+}
+
+
+.img{
+  background-image: url(../images/home2.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+#home{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+#home h1{
+  font-size: 60px;
+  line-height: 80px;
+  margin-bottom: 16px;
+  color: #aa3333;
+  text-align: center;
+  top: 25%;
+}
+
+#home p{
+  text-align: center;
+  color: #f7f7f7;
+  margin-bottom: 40px;
+}
+
+
+
+.social-ul li{
+      display: inline-block;
+      border: 1px solid #fff;
+}
+
+
+.social-ul span{
+  color: #aa3333;
+  padding: 20px;
+  border: 1px solid #fff;
+  transition: all 300ms;   
+}
+
+
+.social-ul li:hover{
+  background: #aa3333;
+  transform: rotate(45deg);
+  transition: all 300ms;   
+}
+
+.social-ul span:hover{
+  border: 1px solid transparent;
+  color: #fff;
+  transform: rotate(-45deg);
+  transition: all 300ms;   
+}
