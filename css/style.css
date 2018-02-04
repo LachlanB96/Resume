@@ -1,27 +1,23 @@
 
 .section {
-  height: 100%;
   width: 100%;
 }
 
-
-.img{
-  background-image: url(../images/home2.jpg);
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
+.myphoto{
+  background-image: url(../images/me.jpg);
+  width: 300;
+  height: 500;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#home{
+#home-section{
   padding-left: 0;
   padding-right: 0;
 }
 
 
-#home h1{
+#home-section h1{
   font-size: 60px;
   line-height: 80px;
   margin-bottom: 16px;
@@ -30,7 +26,7 @@
   top: 25%;
 }
 
-#home p{
+#home-section p{
   text-align: center;
   color: #f7f7f7;
   margin-bottom: 40px;
@@ -39,28 +35,149 @@
 
 
 .social-ul li{
-      display: inline-block;
-      border: 1px solid #fff;
-}
-
-
-.social-ul span{
-  color: #aa3333;
-  padding: 20px;
+  display: inline-block;
   border: 1px solid #fff;
-  transition: all 300ms;   
+  width: 150px;
+  height: 150px;
 }
+
+.social-ul li a{
+  position: relative;
+  display: inline-block;
+  color: #aa3333;
+  width: 100%;
+  height: 100%;
+  padding: 25%;
+}
+
+
 
 
 .social-ul li:hover{
   background: #aa3333;
+  border: 1px solid #aa3333;
   transform: rotate(45deg);
   transition: all 300ms;   
 }
 
-.social-ul span:hover{
-  border: 1px solid transparent;
+.social-ul li:hover a{
   color: #fff;
+  transition: all 300ms;
   transform: rotate(-45deg);
-  transition: all 300ms;   
+  transition: all 300ms; 
+}
+
+
+@keyframes scrollDown {
+  from {
+    color: #fff;
+  }
+  to {
+    transform: translate(0, 300px);
+  }
+}
+
+.fa-angle-double-down{
+  animation: scrollDown 5s infinte;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.onscreen{
+  box-sizing: border-box;
+  animation-name: fadeInUp;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  color: #aa3333;
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  visibility: visible;
+}
+
+
+/*===================================*/
+
+
+
+#home-section {
+  background-image: url(../images/home2.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#home-section > div{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 50px;
+  top: 60%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+}
+#home-section > div > h1{
+  font-size: 170px;
+}
+
+
+.section-bg-image{
+  background-color: #222222
+}
+
+#skills-section{
+  background-color: #22222250
+}
+
+#skills-section h3{
+  color: #fff;
+}
+
+.test{
+  position: relative;
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  background: yellowgreen;
+  background-image:
+  linear-gradient(to top, transparent 50%, #222222 0);
+  overflow: hidden;
+}
+
+.test::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  background-color: #ff1111;
+  transform-origin: 0 50%;
+  transform: rotate(.6turn);
+}
+
+.test2{
+  position: absolute;
+  width: 180px; height: 180px;
+  border-radius: 100%;
+  background: #222222;
+  z-index: 10;
+  top: 10px;
+  left: 10px;
 }
