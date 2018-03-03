@@ -1,186 +1,253 @@
-
-.section {
-  width: 100%;
+.section > div {
+    padding-top: 40px;
+    width: 100%;
+    top: 0;
 }
 
-.myphoto{
-  background-image: url(../images/me.jpg);
-  width: 300;
-  height: 500;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.section-dark{
+    background-color: #222222;
+    color: #bbb;
 }
 
-#home-section{
-  padding-left: 0;
-  padding-right: 0;
+.section .title{
+    color: #cc3333;
+    font-family: 'Bree Serif', serif;
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
 }
 
-
-#home-section h1{
-  font-size: 60px;
-  line-height: 80px;
-  margin-bottom: 16px;
-  color: #aa3333;
-  text-align: center;
-  top: 25%;
-}
-
-#home-section p{
-  text-align: center;
-  color: #f7f7f7;
-  margin-bottom: 40px;
-}
-
-
-
-.social-ul li{
-  display: inline-block;
-  border: 1px solid #fff;
-  width: 150px;
-  height: 150px;
-}
-
-.social-ul li a{
-  position: relative;
-  display: inline-block;
-  color: #aa3333;
-  width: 100%;
-  height: 100%;
-  padding: 25%;
-}
-
-.social-ul li:hover{
-  background: #aa3333;
-  border: 1px solid #aa3333;
-  transform: rotate(45deg);
-  transition: all 300ms;   
-}
-
-.social-ul li:hover a{
-  color: #fff;
-  transition: all 300ms;
-  transform: rotate(-45deg);
-  transition: all 300ms; 
-}
-
-
-@keyframes scrollDown {
-  from {
-    color: #fff;
-  }
-  to {
-    transform: translate(0, 300px);
-  }
-}
-
-.fa-angle-double-down{
-  animation: scrollDown 5s infinte;
-  animation-duration: 5s;
-  animation-fill-mode: both;
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
+.image{
+    background-image: url(../images/me.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+    width: 300;
 }
 
 .onscreen{
-  box-sizing: border-box;
-  animation-name: fadeInUp;
-  animation-duration: 5s;
-  animation-fill-mode: both;
-  color: #aa3333;
-  display: block;
-  font-size: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  visibility: visible;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    color: #cc3333;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    visibility: visible;
 }
 
-#home-section {
-  background-image: url(../images/home2.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-#home-section > div{
-  position: absolute;
-  display: block;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: 20px;
-  top: 60%;
-  left: 50%;
-  height: 30%;
-  width: 50%;
-  margin: -15% 0 0 -25%;
+.section .content{
+    margin: 0 10% 0 10%;
+    padding: 10px 10% 10px 10%;
 }
 
-#home-section > div > ul {
-  font-size: 50px;
-  ;
+.section .content-center-half{
+    margin: 0 20% 0 20%;
+    padding: 10px 10% 10px 10%;
 }
 
-#home-section > div > h1{
-  font-size: 170px;
-  ;
+.section .content .heading{
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+}
+
+.section .content .text{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.section .content .input{
+    text-align: center;
+}
+
+.section .home{
+    background-image: url(../images/home2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding-top: 0 !important;
+}
+
+.section .home .title {
+    background-color: transparent;
+    font-size: 170px;
+}
+
+.section .home .content{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.section .home .content .text{
+    color: #ddd;
+    font-size: 25px;
+    margin-left: 30%;
+    width: 40%;
+}
+
+.section .home .content .box-list{
+    left: 20%;
+    position:absolute;
+    top: 80%;
+    width: 60%;
 }
 
 
-.section-dark{
-  background-color: #222222;
-  ;
+.section .home .content .box-list .item{
+    background-color: rgb(5, 0, 0);
+    background-color: rgba(5, 0, 0, 0.7);
+    border: 1px solid #fff;
+    color: #cc3333;
+    height: 12.5%;
+    width: 10%;
+    margin: 5px;
+    padding: 25px;
+    animation-name: spinOnSpotOff;
+    animation-duration: 0.25s;
 }
 
-#skills-section{
-  background-color: #22222250;
-  ;
+.section .home .content .box-list .item:hover{
+    animation-fill-mode: forwards;
+    color: #fff;
+    border: 1px solid #cc3333;
+    animation-name: spinOnSpotOn;
+    animation-duration: 1s;
+}
+.section .about .content .image{
+
 }
 
-.section-title{
-  color: #ff0000;
-  ;
+.section .about .content .list{
+    list-style-type: none;
+    width: 100%;
+
+}
+.section .about .content .list .item{
+    padding: 10px;
+    border: 1px solid #fdd;
+    overflow: auto;
+}
+.section .about .content .list .item:hover{
+  background: #eee;
+  color: #cc3333;
+}
+.section .about .content .list .item .heading{
+    font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+.section .about .content .list .item .icon{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+.section .about .content .list .item .text{
+    font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
 
-.test{
-  background: yellowgreen;
-  background-image: linear-gradient(to top, transparent 50%, #222222 0);
-  border-radius: 50%;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 200px; 
+.section .contact{
+    height: 95%;
 }
 
-.test::before {
-  background-color: #ff1111;
-  content: '';
-  display: block;
-  height: 100%;
-  margin-left: 50%;
-  transform: rotate(.6turn);
-  transform-origin: 0 50%;
+
+
+.navbar{
+    width: 100%;
+    height: 50px;
 }
 
-.test2{
-  background: #222222;
-  border-radius: 100%;
-  height: 180px;
-  left: 10px;
-  position: absolute;
-  top: 10px;
-  width: 180px; 
-  z-index: 10;
+.nav{
+    margin: 0;
+    width: 100%;
+}
+
+.nav li{
+    width: 10%;
+    border: 2px solid #fff;
+}
+.nav .active {
+    background-color: #f00;
+    color: #0ff;   
+    border: 4px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeInStill {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+@keyframes scrollDown {
+    from {
+        color: #fff;
+    }
+    to {
+        transform: translate(0, 300px);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes spinOnSpotOn {
+    50% {
+        transform: scale(1.2, 1.2);
+        background-color: rgba(200, 70, 70, 0.9);
+    }
+    100% {
+        transform: scale(1,1);
+        background-color: rgba(255, 50, 50, 1);
+    }
+}
+
+@keyframes spinOnSpotOff {
+    50% {transform: scale(1.1, 1.1);}
+    100% {transform: scale(1,1);}
 }

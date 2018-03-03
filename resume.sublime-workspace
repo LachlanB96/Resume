@@ -144,102 +144,15 @@
 	"buffers":
 	[
 		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 2847,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "0123456789112345678912345678900123456\n789123456789\n89-",
-			"settings":
-			{
-				"buffer_size": 54,
-				"line_ending": "Windows",
-				"name": "0123456789112345678912345678900123456"
-			}
-		},
-		{
-			"file": "css/font-awesome.min.css",
-			"settings":
-			{
-				"buffer_size": 31000,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/scripts.js",
-			"settings":
-			{
-				"buffer_size": 782,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
+			"contents": "<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"keywords\" content=\"Lachlan, Brown, LachlanB, LachlanB.com, Lachlanb.net. LachlanB.org, LachlanB.com.au, Software Developer, Software, Engineer, Architect, Resume, CV, Ethereum, Blockchain, Ether, Bitcoin, Website, Solidity, Smart Contracts, Smart, Contract\">\n    <title>About LachlanB</title>\n    <link href=\"css/bootstrap.css\" rel=\"stylesheet\">\n    <link href=\"css/style.css\" rel=\"stylesheet\">\n    <link rel=\"shortcut icon\" href=\"images/favicon.png\">\n    <script defer src=\"js/fontawesome-all.js\"></script>\n</head>\n<body>\n\n\n    <div class=\"section container-fluid\" id=\"home-section\">\n        <div class=\"home-body\">\n            <img class=\"img\"></img>\n            <h1>LachlanB</h1>\n            <p>I am a fully professional freelance creative User Interface Designer Developer<br> Involving with latest web designing and technologies is a great <br> feel free to contact creative.  <i class=\"fas fa-user\"></i><i class=\"fab\"></i>\n              <i class=\"far fa-user\"></i><i class=\"fab fa-twitter-square\"></i></p>\n              <ul class=\"social-ul\">\n                <li>\n                    <a href=\"#\"><i class=\"fab fa-twitter fa-lg\"></i></a>\n                </li>  \n                <li>\n                    <a href=\"#\"><i class=\"fab fa-telegram fa-lg\"></i></a>\n                </li>  \n                <li>\n                    <a href=\"#\"><i class=\"fa fa-envelope fa-lg\"></i></a>\n                </li>  \n                <li>\n                    <a href=\"#\"><i class=\"fab fa-github-square fa-lg\"></i></a>\n                </li>  \n                <li>\n                    <a href=\"#\"><i class=\"fa fa-graduation-cap fa-lg\"></i></a>\n                </li>  \n                <li>\n                    <a href=\"#\"><i class=\"fa fa-cogs fa-lg\"></i></a>\n                </li>    \n                <li>\n                    <a href=\"#\"><i class=\"fab fa-ethereum fa-lg\"></i></a>\n                </li>    \n            </ul>\n            <i class=\"fas fa-angle-double-down fa-2x\"></i>\n        </div>\n    </div>\n\n    <nav class=\"navbar navbar-static-top navbar-default navbar-inverse\">\n        <div class=\"container\">\n            <div class=\"navbar-header\">\n                <a class=\"navbar-brand\" href=\"#\">LB</a>\n            </div>\n            <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n                <ul class=\"nav navbar-nav\">\n                    <li class=\"active\">\n                        <a href=\"#\">Link</a>\n                    </li>\n                    <li>\n                        <a href=\"#\">Link</a>\n                    </li>\n                    <li>\n                        <a href=\"#home\">Homee</a>\n                    </li>\n                    <li>\n                        <a href=\"#about\">About</a>\n                    </li>\n                    <li>\n                        <a href=\"#resume\">Resume</a>\n                    </li>\n                    <li>\n                        <a href=\"#skills\">Skills</a>\n                    </li>\n                    <li>\n                        <a href=\"#works\">Works</a>\n                    </li>\n                    <li>\n                        <a href=\"#blog\">Blog</a>\n                    </li>\n                    <li>\n                        <a href=\"#contact\">Contact</a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </nav>\n\n\n    <div class=\"section\">\n        <div class=\"container\" id=\"about-section\">\n            <h2 class=\"section-title\">About Me</h2>\n\n            <div class=\"row\">\n\n                <div class=\"col-md-4 col-md-push-8\">\n                    <div class=\"biography\">\n                        <div class=\"myphoto\">\n                        </div>\n                        <ul>\n                            <li><strong>Name: </strong>Lachlan Brown</li>\n                            <li><strong>Date of birth: </strong>6th August 1996</li>\n                            <li><strong>Nationality: </strong>Australian</li>\n                            <li><strong>Phone: </strong> Hidden</li>\n                            <li><strong>Email: </strong> enquiry@lachlanb.com</li>\n                        </ul>\n                    </div>\n                </div>\n\n                <div class=\"col-md-8 col-md-pull-4\">\n                    <div class=\"short-info\">\n                        <h3>Objective</h3>\n                        <p>An opportunity to work and upgrade oneself, as well as being involved in an organization that believes in gaining a competitive edge and giving back to the community. I'm presently expanding my solid experience in UI / UX design. I focus on using my interpersonal skills to build good user experience and create a strong interest in my employers. I hope to develop skills in motion design and my knowledge of the Web, and become an honest asset to the business. As an individual, I'm self-confident you’ll find me creative, funny and naturally passionate. I’m a forward thinker, which others may find inspiring when working as a team.</p>\n                    </div>\n\n                    <div class=\"short-info\">\n                        <h3>What I Do ?</h3>\n                        <p>I have been working as a web interface designer since. I have a love of clean, elegant styling, and I have lots of experience in the production of CSS3 and HTML5 for modern websites. I loving creating awesome as per my clients’ need. I think user experience when I try to craft something for my clients. Making a design awesome.</p>\n\n                        <ul class=\"list-check\">\n                            <li>User Experience Design</li>\n                            <li>Interface Design</li>\n                            <li>Product Design</li>\n                            <li>Branding Design</li>\n                            <li>Digital Painting</li>\n                            <li>Video Editing</li>\n                        </ul>\n                    </div>\n\n                    <div class=\"download-button\">\n                        <a class=\"btn btn-info btn-lg\" href=\"#contact\"><i class=\"fa fa-paper-plane\"></i>Send me message</a>\n                        <a class=\"btn btn-primary btn-lg\" href=\"#\"><i class=\"fa fa-download\"></i>download my cv</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"section section-bg-image\">\n        <div class=\"container\" id=\"skills-section\">\n            <h2 class=\"section-title\">Skills</h2>\n\n            <div class=\"row\">\n                <div class=\"col-md-6\">\n                    <h3>Solidity</h3>\n                    <div class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" style=\"width:40%\">\n                            <p>Free Space</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" style=\"width:10%\">\n                            <p>Warning</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" style=\"width:20%\">\n                            <p>Danger</p>\n                        </div>\n                    </div>\n                    <h3>Javascript</h3>\n                    <div class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" style=\"width:40%\">\n                            <p>Free Space</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" style=\"width:10%\">\n                            <p>Warning</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" style=\"width:20%\">\n                            <p>Danger</p>\n                        </div>\n                    </div>\n                    <h3>Python2/3</h3>\n                    <div class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" style=\"width:40%\">\n                            <p>Free Space</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" style=\"width:10%\">\n                            <p>Warning</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" style=\"width:20%\">\n                            <p>Danger</p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-md-6\">\n                    <h3>VB.NET</h3>\n                    <div class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" style=\"width:40%\">\n                            <p>Free Space</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" style=\"width:10%\">\n                            <p>Warning</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" style=\"width:20%\">\n                            <p>Danger</p>\n                        </div>\n                    </div>\n                    <h3>PHP</h3>\n                    <div class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" style=\"width:40%\">\n                            <p>Free Space</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" style=\"width:10%\">\n                            <p>Warning</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" style=\"width:20%\">\n                            <p>Danger</p>\n                        </div>\n                    </div>\n                    <h3>Java</h3>\n                    <div class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" style=\"width:40%\">\n                            <p>Free Space</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" style=\"width:10%\">\n                            <p>Warning</p>\n                        </div>\n                        <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" style=\"width:20%\">\n                            <p>Danger</p>\n                        </div>\n                    </div>\n                </div><!-- /.col-md-6 -->\n            </div>\n            <div class=\"test\"><div class=\"test2\"></div></div>\n\n            <div class=\"skill-chart text-center\">\n                <h3>More skills</h3>\n            </div>\n            <div class=\"text-center\">\n                <span class=\"min-chart\" id=\"chart-sales\" data-percent=\"56\"><span class=\"percent\"></span></span>\n                <h5><span class=\"label green\">Sales <i class=\"fa fa-arrow-circle-up\"></i></span></h5>\n            </div>\n            <div class=\"row more-skill text-center\">\n                <div class=\"col-xs-12 col-sm-4 col-md-2\">\n                    <div class=\"chart\" data-percent=\"91\" data-color=\"e74c3c\">\n                        <span class=\"percent\"></span>\n                        <div class=\"chart-text\">\n                            <span>leadership</span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-xs-12 col-sm-4 col-md-2\">\n                    <div class=\"chart\" data-percent=\"23\" data-color=\"2ecc71\">\n                        <span class=\"percent\"></span>\n                        <div class=\"chart-text\">\n                            <span>Creativity</span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-xs-12 col-sm-4 col-md-2\">\n                    <div class=\"chart\" data-percent=\"68\" data-color=\"3498db\">\n                        <span class=\"percent\"></span>\n                        <div class=\"chart-text\">\n                            <span>Management</span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-xs-12 col-sm-4 col-md-2\">\n                    <div class=\"chart\" data-percent=\"68\" data-color=\"3498db\">\n                        <span class=\"percent\"></span>\n                        <div class=\"chart-text\">\n                            <span>Branding</span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-xs-12 col-sm-4 col-md-2\">\n                    <div class=\"chart\" data-percent=\"68\" data-color=\"3498db\">\n                        <span class=\"percent\"></span>\n                        <div class=\"chart-text\">\n                            <span>Marketing</span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-xs-12 col-sm-4 col-md-2\">\n                    <div class=\"chart\" data-percent=\"68\" data-color=\"3498db\">\n                        <span class=\"percent\"></span>\n                        <div class=\"chart-text\">\n                            <span>Motivation</span>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n\n\n    <!-- Works Section -->\n    <div class=\"container\">\n        <h2 class=\"section-title\">Works</h2>\n\n        <ul class=\"list-inline\" id=\"filter\">\n            <li><a class=\"active\" data-group=\"all\">All</a></li>\n            <li><a data-group=\"design\">Design</a></li>\n            <li><a data-group=\"web\">Web</a></li>\n            <li><a data-group=\"interface\">Interface</a></li>\n            <li><a data-group=\"identety\">Identity</a></li>\n        </ul>\n\n        <div class=\"row\">\n            <div id=\"grid\">\n                <div class=\"portfolio-item col-xs-12 col-sm-4 col-md-3\" data-groups='[\"all\", \"identety\", \"interface\"]'>\n                    <div class=\"portfolio-bg\">\n                        <div class=\"portfolio\">\n                            <div class=\"tt-overlay\"></div>\n                            <div class=\"links\">\n                                <a class=\"image-link\" href=\"images/works/portfolio-1.jpg\"><i class=\"fa fa-search-plus\"></i></a>\n                                <a href=\"#\"><i class=\"fa fa-link\"></i></a>                          \n                            </div><!-- /.links -->\n                            <img src=\"images/works/portfolio-1.jpg\" alt=\"image\"> \n                            <div class=\"portfolio-info\">\n                                <h3>Portfolio Title</h3>\n                            </div><!-- /.portfolio-info -->\n                        </div><!-- /.portfolio -->\n                    </div><!-- /.portfolio-bg -->\n                </div><!-- /.portfolio-item -->\n\n\n                <div class=\"portfolio-item col-xs-12 col-sm-4 col-md-3\" data-groups='[\"all\", \"identety\", \"web\"]'>\n                    <div class=\"portfolio-bg\">\n                        <div class=\"portfolio\">\n                            <div class=\"tt-overlay\"></div>\n                            <div class=\"links\">\n                                <a class=\"image-link\" href=\"images/works/portfolio-2.jpg\"><i class=\"fa fa-search-plus\"></i></a>\n                                <a href=\"#\"><i class=\"fa fa-link\"></i></a>                          \n                            </div><!-- /.links -->\n                            <img src=\"images/works/portfolio-2.jpg\" alt=\"image\"> \n                            <div class=\"portfolio-info\">\n                                <h3>Portfolio Title</h3>\n                            </div><!-- /.portfolio-info -->\n                        </div><!-- /.portfolio -->\n                    </div><!-- /.portfolio-bg -->\n                </div><!-- /.portfolio-item -->\n                <div class=\"portfolio-item col-xs-12 col-sm-4 col-md-3\" data-groups='[\"all\", \"interface\"]'>\n                    <div class=\"portfolio-bg\">\n                        <div class=\"portfolio\">\n                            <div class=\"tt-overlay\"></div>\n                            <div class=\"links\">\n                                <a class=\"image-link\" href=\"images/works/portfolio-3.jpg\"><i class=\"fa fa-search-plus\"></i></a>\n                                <a href=\"#\"><i class=\"fa fa-link\"></i></a>                          \n                            </div><!-- /.links -->\n                            <img src=\"images/works/portfolio-3.jpg\" alt=\"image\"> \n                            <div class=\"portfolio-info\">\n                                <h3>Portfolio Title</h3>\n                            </div><!-- /.portfolio-info -->\n                        </div><!-- /.portfolio -->\n                    </div><!-- /.portfolio-bg -->\n                </div><!-- /.portfolio-item -->\n                <div class=\"portfolio-item col-xs-12 col-sm-4 col-md-3\" data-groups='[\"all\", \"identety\", \"design\"]'>\n                    <div class=\"portfolio-bg\">\n                        <div class=\"portfolio\">\n                            <div class=\"tt-overlay\"></div>\n                            <div class=\"links\">\n                                <a class=\"image-link\" href=\"images/works/portfolio-4.jpg\"><i class=\"fa fa-search-plus\"></i></a>\n                                <a href=\"#\"><i class=\"fa fa-link\"></i></a>                          \n                            </div><!-- /.links -->\n                            <img src=\"images/works/portfolio-4.jpg\" alt=\"image\"> \n                            <div class=\"portfolio-info\">\n                                <h3>Portfolio Title</h3>\n                            </div><!-- /.portfolio-info -->\n                        </div><!-- /.portfolio -->\n                    </div><!-- /.portfolio-bg -->\n                </div><!-- /.portfolio-item -->\n                <div class=\"portfolio-item col-xs-12 col-sm-4 col-md-3\" data-groups='[\"all\", \"identety\", \"design\"]'>\n                    <div class=\"portfolio-bg\">\n                        <div class=\"portfolio\">\n                            <div class=\"tt-overlay\"></div>\n                            <div class=\"links\">\n                                <a class=\"image-link\" href=\"images/works/portfolio-5.jpg\"><i class=\"fa fa-search-plus\"></i></a>\n                                <a href=\"#\"><i class=\"fa fa-link\"></i></a>                          \n                            </div><!-- /.links -->\n                            <img src=\"images/works/portfolio-5.jpg\" alt=\"image\"> \n                            <div class=\"portfolio-info\">\n                                <h3>Portfolio Title</h3>\n                            </div><!-- /.portfolio-info -->\n                        </div><!-- /.portfolio -->\n                    </div><!-- /.portfolio-bg -->\n                </div><!-- /.portfolio-item -->\n                <div class=\"portfolio-item col-xs-12 col-sm-4 col-md-3\" data-groups='[\"all\", \"identety\", \"design\"]'>\n                    <div class=\"portfolio-bg\">\n                        <div class=\"portfolio\">\n                            <div class=\"tt-overlay\"></div>\n                            <div class=\"links\">\n                                <a class=\"image-link\" href=\"images/works/portfolio-6.jpg\"><i class=\"fa fa-search-plus\"></i></a>\n                                <a href=\"#\"><i class=\"fa fa-link\"></i></a>                          \n                            </div><!-- /.links -->\n                            <img src=\"images/works/portfolio-6.jpg\" alt=\"image\"> \n                            <div class=\"portfolio-info\">\n                                <h3>Portfolio Title</h3>\n                            </div><!-- /.portfolio-info -->\n                        </div><!-- /.portfolio -->\n                    </div><!-- /.portfolio-bg -->\n                </div><!-- /.portfolio-item -->\n                <div class=\"portfolio-item col-xs-12 col-sm-4 col-md-3\" data-groups='[\"all\", \"identety\", \"web\"]'>\n                    <div class=\"portfolio-bg\">\n                        <div class=\"portfolio\">\n                            <div class=\"tt-overlay\"></div>\n                            <div class=\"links\">\n                                <a class=\"image-link\" href=\"images/works/portfolio-7.jpg\"><i class=\"fa fa-search-plus\"></i></a>\n                                <a href=\"#\"><i class=\"fa fa-link\"></i></a>                          \n                            </div><!-- /.links -->\n                            <img src=\"images/works/portfolio-7.jpg\" alt=\"image\"> \n                            <div class=\"portfolio-info\">\n                                <h3>Portfolio Title</h3>\n                            </div><!-- /.portfolio-info -->\n                        </div><!-- /.portfolio -->\n                    </div><!-- /.portfolio-bg -->\n                </div><!-- /.portfolio-item -->\n                <div class=\"portfolio-item col-xs-12 col-sm-4 col-md-3\" data-groups='[\"all\", \"design\"]'>\n                    <div class=\"portfolio-bg\">\n                        <div class=\"portfolio\">\n                            <div class=\"tt-overlay\"></div>\n                            <div class=\"links\">\n                                <a class=\"image-link\" href=\"images/works/portfolio-8.jpg\"><i class=\"fa fa-search-plus\"></i></a>\n                                <a href=\"#\"><i class=\"fa fa-link\"></i></a>                          \n                            </div><!-- /.links -->\n                            <img src=\"images/works/portfolio-8.jpg\" alt=\"image\"> \n                            <div class=\"portfolio-info\">\n                                <h3>Portfolio Title</h3>\n                            </div><!-- /.portfolio-info -->\n                        </div><!-- /.portfolio -->\n                    </div><!-- /.portfolio-bg -->\n                </div><!-- /.portfolio-item -->\n            </div><!-- /#grid -->\n        </div><!-- /.row -->\n    </div><!-- /.container -->\n\n    <!-- Resume Section -->\n    <div id=\"resume\" class=\"resume-section section-padding\">\n        <div class=\"container\">\n            <h2>Resume</h2>\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <div class=\"resume-title\">\n                        <h3>Education</h3>\n                    </div>\n                    <div class=\"resume\">\n                        <ul class=\"timeline\">\n                            <li>\n                                <div class=\"posted-date\">\n                                    <span class=\"month\">2007-2011</span>\n                                </div><!-- /posted-date -->\n\n                                <div class=\"timeline-panel\">\n\n                                    <div class=\"timeline-heading\">\n                                        <h3>Bachelor degree certificate</h3>\n                                        <span>BA(Hons) in UI Engineering, Arts University, Pabna, USA</span>\n                                    </div><!-- /timeline-heading -->\n\n                                    <div class=\"timeline-body\">\n                                        <p>I have completed UI Engineering degree from ABC University, Boston, USA at feel the charm of existence in this spot, which was creat.</p>\n                                    </div><!-- /timeline-body -->\n                                </div> <!-- /timeline-content -->\n                            </div><!-- /timeline-panel -->\n                        </li>\n\n                        <li class=\"timeline-inverted\">\n                            <div class=\"posted-date\">\n                                <span class=\"month\">2004-2006</span>\n                            </div><!-- /posted-date -->\n\n                            <div class=\"timeline-panel\">\n                                <div class=\"timeline-content\">\n                                    <div class=\"timeline-heading\">\n                                        <h3>Higher Secondary certificate</h3>\n                                        <span>Typography Arts, FA College, New York, USA</span>\n                                    </div><!-- /timeline-heading -->\n\n                                    <div class=\"timeline-body\">\n                                        <p>From this college of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>\n                                    </div><!-- /timeline-body -->\n                                </div> <!-- /timeline-content -->\n                            </div> <!-- /timeline-panel -->\n                        </li>\n\n                        <li>\n                            <div class=\"posted-date\">\n                                <span class=\"month\">2000-2003</span>\n                            </div><!-- /posted-date -->\n\n                            <div class=\"timeline-panel\">\n                                <div class=\"timeline-content\">\n                                    <div class=\"timeline-heading\">\n                                        <h3>Secondary school certificate</h3>\n                                        <span>Creative Arts, Julius Jr. school, USA</span>\n                                    </div><!-- /timeline-heading -->\n\n                                    <div class=\"timeline-body\">\n                                        <p>I was awesome at arts, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>\n                                    </div><!-- /timeline-body -->\n                                </div> <!-- /timeline-content -->\n                            </div><!-- /timeline-panel -->\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div><!-- /row -->\n\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div class=\"resume-title\">\n                    <h3>Experience</h3>\n                </div>\n                <div class=\"resume\">\n                    <ul class=\"timeline\">\n                        <li class=\"timeline-inverted\">\n                            <div class=\"posted-date\">\n                                <span class=\"month\">2011-2013</span>\n                            </div><!-- /posted-date -->\n\n                            <div class=\"timeline-panel\">\n                                <div class=\"timeline-content\">\n                                    <div class=\"timeline-heading\">\n                                        <h3>Junior ui designer</h3>\n                                        <span>XYZ Design Home, One Street, Boston</span>\n                                    </div><!-- /timeline-heading -->\n\n                                    <div class=\"timeline-body\">\n                                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>\n                                    </div><!-- /timeline-body -->\n                                </div> <!-- /timeline-content -->\n                            </div> <!-- /timeline-panel -->\n                        </li>\n\n                        <li>\n                            <div class=\"posted-date\">\n                                <span class=\"month\">2013-2015</span>\n                            </div><!-- /posted-date -->\n\n                            <div class=\"timeline-panel\">\n                                <div class=\"timeline-content\">\n                                    <div class=\"timeline-heading\">\n                                        <h3>Lead UX Consultant</h3>\n                                        <span>Lucky8 Designing Firm, California</span>\n                                    </div><!-- /timeline-heading -->\n\n                                    <div class=\"timeline-body\">\n                                        <p>Completely provide access to seamless manufactured products before functionalized synergy. Progressively redefine competitive.</p>\n                                    </div><!-- /timeline-body -->\n                                </div> <!-- /timeline-content -->\n                            </div><!-- /timeline-panel -->\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div><!-- /row -->\n    </div><!-- /.container -->\n</div><!-- End Resume Section -->\n\n\n<!-- Skills Section -->\n\n\n<!-- Facts Section -->\n<section id=\"facts\" class=\"facts-section text-center\" data-stellar-vertical-offset=\"50\" data-stellar-background-ratio=\"0.2\">\n    <div class=\"tt-overlay-bg\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <div class=\"count-wrap\">\n                        <div class=\"col-sm-3 col-xs-6\">\n                            <i class=\"fa fa-flask\"></i>\n                            <h3 class=\"timer\">7</h3>\n                            <p>Years of Experience</p>\n                        </div>\n                        <div class=\"col-sm-3 col-xs-6\"> \n                            <i class=\"fa fa-thumbs-up\"></i>\n                            <h3 class=\"timer\">651</h3>                \n                            <p>Projects Done</p>\n                        </div>\n                        <div class=\"progress\">\n                            <div class=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width:70%\">\n                                <span class=\"sr-only\">70% Complete</span>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-3 col-xs-6\">\n                            <i class=\"fa fa-users\"></i>\n                            <h3 class=\"timer\">251</h3> \n                            <p>Happy Clients</p>\n                        </div>\n                        <div class=\"col-sm-3 col-xs-6\">\n                            <i class=\"fa fa-trophy\"></i>\n                            <h3 class=\"timer\">5</h3> \n                            <p>Awards Won</p>\n                        </div>\n                    </div><!-- /count-wrap -->\n                </div><!-- /.col-md-12 -->\n            </div><!-- /.row -->\n        </div><!-- /.container -->\n    </div>\n</section> <!-- End Facts Section -->\n\n<!-- Hire Section -->\n<section class=\"hire-section text-center\" data-stellar-vertical-offset=\"50\" data-stellar-background-ratio=\"0.2\">\n    <div class=\"hire-section-bg\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <h2>I'm available for freelance project</h2>\n                    <a href=\"#\" class=\"btn btn-default\">Get Hired</a>\n                </div><!-- /.col-md-12 -->\n            </div><!-- /.row -->\n        </div><!-- /.container -->\n    </div><!-- /.hire-section-bg -->\n</section><!-- End Hire Section -->\n\n\n\n<!-- Contact Section -->\n<section id=\"contact\" class=\"contact-section section-padding\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Get in touch</h2>\n\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <div class=\"contact-form\">\n                    <strong>Send me a message</strong>\n                    <form name=\"contact-form\" id=\"contactForm\" action=\"sendemail.php\" method=\"POST\">\n\n                        <div class=\"form-group\">\n                            <label for=\"name\">Name</label>\n                            <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" required=\"\">\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label for=\"email\">Email</label>\n                            <input type=\"email\" name=\"email\" class=\"form-control\" id=\"email\" required=\"\">\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label for=\"subject\">Subject</label>\n                            <input type=\"text\" name=\"subject\" class=\"form-control\" id=\"subject\">\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label for=\"message\">Message</label>\n                            <textarea name=\"message\" class=\"form-control\" id=\"message\" rows=\"5\" required=\"\"></textarea>\n                        </div>\n\n                        <button type=\"submit\" name=\"submit\" class=\"btn btn-primary\">Send Message</button>\n                    </form>\n                </div><!-- /.contact-form -->\n            </div><!-- /.col-md-6 -->\n\n            <div class=\"col-md-6\">\n                <div class=\"row center-xs\">\n                    <div class=\"col-sm-6\">\n                        <i class=\"fa fa-map-marker\"></i>\n                        <address>\n                            <strong>Address/Street</strong>\n                            239/2 Awesome Street,<br>\n                            Boston, USA<br>\n                        </address>\n                    </div>\n\n                    <div class=\"col-sm-6\">\n                        <i class=\"fa fa-mobile\"></i>\n                        <div class=\"contact-number\">\n                            <strong>Phone Number</strong>\n                            (001) 0123 111222<br>\n                            (001) 0123 333444\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"row\">\n                    <div class=\"col-sm-12\">\n                        <div class=\"location-map\">\n                            <div id=\"mapCanvas\" class=\"map-canvas\"></div>\n                        </div>\n                    </div>\n                </div>\n\n            </div>\n        </div><!-- /.row -->\n    </div><!-- /.container -->\n</section><!-- End Contact Section -->\n</div>\n\n<script src=\"js/jquery-3.3.1.js\"></script>\n<script src=\"js/bootstrap.js\"></script>\n<script src=\"js/scripts.js\"></script>\n</body>\n</html>",
 			"file": "index.html",
+			"file_size": 34019,
+			"file_write_time": 131642558357045850,
 			"settings":
 			{
 				"buffer_size": 34010,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Program Files (x86)/Ampps/www/index.html",
-			"settings":
-			{
-				"buffer_size": 34010,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/lachlan/GDrive/Portable Software/Right-Click Extender v2/README FIRST!!!!!!!!.txt",
-			"settings":
-			{
-				"buffer_size": 2352,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "If you have used any other applications or manual hacks to Customize Windows\nIt is highly advised that you reverse these changes before running UWC.\n\nThis is due to the fact that upon First Run, UWC will generate Backups of\nthe Current Files\\Registry Settings to allow the user to revert back to\nDefault. Due to the wide nature of Customizations, this is the only option\nto revert back to Default.\n\nIf you are sure your system would not be harmed if you reverted back to the\nway it was before running UWC then continue and Happy Customizing.\n\n\nThe Windows Club Team\nwww.thewindowsclub.com",
-			"file": "/C/Program Files (x86)/Ultimate Windows Customizer/Before Running UWC.txt",
-			"file_size": 601,
-			"file_write_time": 129663860580000000,
-			"settings":
-			{
-				"buffer_size": 588,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/lachlan/GDrive/Portable Software/Right-Click Extender v2/QuickInfoHelp.txt",
-			"settings":
-			{
-				"buffer_size": 4722,
-				"encoding": "Western (Windows 1252)",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/lachlan/GDrive/Portable Software/EcMenu_v1.6/Files/EcMenu.ini",
-			"settings":
-			{
-				"buffer_size": 105497,
-				"encoding": "UTF-16 LE with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 000 | 0000 | 0\n10 | 10011 | 1 | 0 | 0 | 000000 | 000 | 0000 | 0\n10 | 10011 | 1 | 0 | 0 | 100110 | 000 | 0000 | 0\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 000 | 0000 | 0\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 000000 | 000 | 0000 | 0\n10 | 10011 | 1 | 0 | 0 | 000000 | 000 | 0000 | 0\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 000 | 0000 | 0\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 000 | 0000 | 0\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 01010 | 1 | 1 | 0 | 011011 | 000 | 0000 | 0\n10 | 01010 | 1 | 1 | 0 | 011011 | 010 | 0000 | 1\n10 | 01010 | 1 | 1 | 0 | 011011 | 010 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1\n\n10 | dif per sensor | 1 | depends on [1] | 0 | diff | if [8] =0, 000, else =[1] device | 4 0's | correlates to [6] 000 = 0, else = 1",
-			"settings":
-			{
-				"buffer_size": 1652,
-				"line_ending": "Windows",
-				"name": "10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1"
 			}
 		}
 	],
@@ -305,16 +218,19 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/lachlan/GDrive/ToSort/Resume",
-		"/C/Users/lachlan/GDrive/ToSort/Resume/js"
-	],
 	"file_history":
 	[
+		"/C/Users/lachlan/GDrive/Portable Software/EcMenu_v1.6/Files/EcMenu.ini",
+		"/C/Users/lachlan/GDrive/Portable Software/Right-Click Extender v2/QuickInfoHelp.txt",
+		"/C/Program Files (x86)/Ultimate Windows Customizer/Before Running UWC.txt",
+		"/C/Users/lachlan/GDrive/Portable Software/Right-Click Extender v2/README FIRST!!!!!!!!.txt",
+		"/C/Users/lachlan/GDrive/ToSort/Resume/index.html",
+		"/C/Program Files (x86)/Ampps/www/index.html",
+		"/C/Users/lachlan/GDrive/ToSort/Resume/js/scripts.js",
+		"/C/Users/lachlan/GDrive/ToSort/Resume/css/font-awesome.min.css",
+		"/C/Users/lachlan/GDrive/ToSort/Resume/css/style.css",
 		"/C/Users/lachlan/GDrive/ToSort/Resume/.gitignore",
 		"/C/Program Files (x86)/Ampps/conf/httpd.conf",
-		"/C/Users/lachlan/GDrive/ToSort/Resume/js/scripts.js",
 		"/C/Program Files (x86)/Ampps/apache/logs/error.log",
 		"/C/Program Files (x86)/Ampps/apache/logs/access.log",
 		"/C/Program Files (x86)/Ampps/conf/php-5.6.ini",
@@ -334,7 +250,6 @@
 		"/C/Users/lachlan/GDrive/ToSort/Resume/assets/js/jquery.magnific-popup.min.js.old",
 		"/C/Users/lachlan/GDrive/ToSort/Resume/assets/js/jquery.countTo.js",
 		"/C/Users/lachlan/GDrive/ToSort/Resume/assets/bootstrap/js/bootstrap.min.js",
-		"/C/Users/lachlan/GDrive/ToSort/Resume/index.html",
 		"/C/Users/lachlan/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/C/Users/lachlan/GDrive/ToSort/CV.sublime-project",
 		"/C/Users/lachlan/AppData/Roaming/Sublime Text 3/Packages/LiveStyle/LiveStyle.sublime-settings",
@@ -432,14 +347,7 @@
 		"/C/Program Files (x86)/Ampps/www/SDP-Spring-2017-Group-7/navigation.php",
 		"/C/Program Files (x86)/Ampps/www/SDP-Spring-2017-Group-7/databaseHandler.php",
 		"/C/Users/lachlan/GDrive/Programming/solidity/first.sol",
-		"/C/Program Files (x86)/Ampps/www/Charts/test.html",
-		"/C/Program Files (x86)/Ampps/www/SDP-Spring-2017-Group-7/journalEntries.php",
-		"/C/Program Files (x86)/Ampps/www/hue/include/init_conf.php",
-		"/C/Program Files (x86)/Ampps/www/hue/include/config.php",
-		"/C/Program Files (x86)/Ampps/www/SDP-Spring-2017-Group-7/journal.php",
-		"/C/Program Files (x86)/Ampps/www/SDP-Spring-2017-Group-7/signin.php",
-		"/C/Program Files (x86)/Ampps/www/SDP-Spring-2017-Group-7/entry.php",
-		"/C/Program Files (x86)/Ampps/www/SDP-Spring-2017-Group-7/createJournal.php"
+		"/C/Program Files (x86)/Ampps/www/Charts/test.html"
 	],
 	"find":
 	{
@@ -579,136 +487,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2847,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2687,
-								2687
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2070.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 54,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								54,
-								54
-							]
-						],
-						"settings":
-						{
-							"auto_name": "0123456789112345678912345678900123456",
-							"default_dir": "C:\\Users\\lachlan\\GDrive\\ToSort\\Resume",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/font-awesome.min.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31000,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								251,
-								213
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/scripts.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								782,
-								782
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 4,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
@@ -720,8 +503,8 @@
 						"selection":
 						[
 							[
-								2042,
-								2042
+								402,
+								402
 							]
 						],
 						"settings":
@@ -731,183 +514,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Program Files (x86)/Ampps/www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 34010,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9987,
-								9987
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2012.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Users/lachlan/GDrive/Portable Software/Right-Click Extender v2/README FIRST!!!!!!!!.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2352,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Program Files (x86)/Ultimate Windows Customizer/Before Running UWC.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 588,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/C/Users/lachlan/GDrive/Portable Software/Right-Click Extender v2/QuickInfoHelp.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/C/Users/lachlan/GDrive/Portable Software/EcMenu_v1.6/Files/EcMenu.ini",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 105497,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2402,
-								2403
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4462.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1652,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1606,
-								1606
-							]
-						],
-						"settings":
-						{
-							"auto_name": "10 | 10011 | 1 | 0 | 0 | 100110 | 111 | 0000 | 1",
-							"default_dir": "C:\\Users\\lachlan\\GDrive\\ToSort\\Resume",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],

@@ -7,7 +7,8 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png">
-    <script defer src="js/fontawesome-all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto" rel="stylesheet">
+    <script src="js/fontawesome-all.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
@@ -33,17 +34,44 @@
         ".NET"=>array("Conceptual"=>40, "Syntax"=>10, "Style"=>20),
         "Python2/3"=>array("Conceptual"=>40, "Syntax"=>10, "Style"=>20));
 
+    $whatIDo = array(
+        array(
+            "icon"=>"fa fa-fast-forward",
+            "name"=>"Rapid Software Development",
+            "description"=>"I am a very experienced developer in the art of 'Rushing' to meet an impractical deadline. Through my passed experiences, I have been known to rapidly complete unreasonable goals within unachieveable deadlines. The reason for this - I just simply enjoy a good challenge and don't believe in limitations."),
+        array(
+            "icon"=>"fa fa-puzzle-piece",
+            "name"=>"Software Archtectural Pattern Design",
+            "description"=>"fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib "),
+        array(
+            "icon"=>"fa fa-link",
+            "name"=>"Blockchain Consensus Protocol Creation",
+            "description"=>"fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib f"),
+        array(
+            "icon"=>"fa fa-align-justify",
+            "name"=>"Full Stack Development",
+            "description"=>"fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib "),
+        array(
+            "icon"=>"fa fa-bolt",
+            "name"=>"Business Automation Conversion",
+            "description"=>"fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib "),
+        array(
+            "icon"=>"fa fa-database",
+            "name"=>"Database Design, Conversion, and Management",
+            "description"=>"fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib fasff sfasaf fjkhnj asuidfg iusagf uidcbsi cuibasicu cyuibsc yusabdfc cyuiasbc uiasbcfib")
+    );
+
     $sections = array("home", "about", "skills", "resume", "stats", "blog", "hobbies", "achievements", "other", "contact");
 
     $x = 0;
 
     ?>
 
+    
+
     <div class="section">
         <div class="home">
-            <div class="title">
-                LachlanB
-            </div>
+            <h1 class="title">LachlanB</h1>
             <div class="content">
                 <div class="text">
                     I am a fully professional freelance creative User Interface Designer Developer. Involving with latest web designing and technologies is a great feel free to contact creative. I am a fully professional freelance creative User Interface Designer Developer. Involving with latest web designing and technologies is a great feel free to contact creative. I am a fully professional freelance creative User Interface Designer Developer. Involving with latest web designing and technologies is a great feel free to contact creative. I am a fully professional freelance creative User Interface Designer Developer. Involving with latest web designing and technologies is a great feel free to contact creative. I am a fully professional freelance creative User Interface Designer Developer. Involving with latest web designing and technologies is a great feel free to contact creative.
@@ -58,11 +86,11 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-static-top navbar-default navbar-inverse">
-        <div class="container">
+    <div class="section section-dark">
+        <nav class="navbar navbar-static-top navbar-default navbar-inverse">
             <div class="nav navbar-nav">
                 <?php foreach ($sections as $section) { ?>
-                <li>
+                <li id="<?=$section?>" class="not-active">
                     <a href="#<?=$section?>">
                         <div class="item">
                             <?=$section?>
@@ -71,46 +99,26 @@
                 </li>
                 <?php } ?>   
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </div>
 
     <div class="section">
         <div class="about">
-            <div class="title">
-                About Me
-            </div>
+            <h2 class="title">About Me</h2>
             <div class="content row">
                 <div class="col-md-8">
-                    <div class="heading">
-                        Objective
-                    </div>
+                    <h3 class="heading">Objective</h3>
                     <div class="text">
                         <p>An opportunity to work and upgrade oneself, as well as being involved in an organization that believes in gaining a competitive edge and giving back to the community. I'm presently expanding my solid experience in UI / UX design. I focus on using my interpersonal skills to build good user experience and create a strong interest in my employers. I hope to develop skills in motion design and my knowledge of the Web, and become an honest asset to the business. As an individual, I'm self-confident you’ll find me creative, funny and naturally passionate. I’m a forward thinker, which others may find inspiring when working as a team.</p>
                     </div>
-
-                    <div class="heading">
-                        What I Do?
-                    </div>
+                    <h3 class="heading">What I Do?</h3>
                     <div class="text">
                         I have been working as a web interface designer since. I have a love of clean, elegant styling, and I have lots of experience in the production of CSS3 and HTML5 for modern websites. I loving creating awesome as per my clients’ need. I think user experience when I try to craft something for my clients. Making a design awesome.
-                    </div>
-                    <div class="list">
-                        <li>User Experience Design</li>
-                        <li>Interface Design</li>
-                        <li>Product Design</li>
-                        <li>Branding Design</li>
-                        <li>Digital Painting</li>
-                        <li>Video Editing</li>
-                    </div>
-                    <div class="input">
-                        <div class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</div>
-                        <div class="btn btn-primary btn-lg" href="#"><i class="fa fa-download"></i>download my cv</div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="biography">
-                        <div class="myphoto">
+                        <div class="image">
                         </div>
                         <ul>
                             <li><strong>Name: </strong>Lachlan Brown</li>
@@ -122,62 +130,62 @@
                     </div>
                 </div>
             </div>
+            <div class="content content-center-half row">
+                <div class="list">
+                    <?php foreach ($whatIDo as $workTask) { ?>
+                    <div class="item">
+                        <div class="col-md-2">
+                            <div class="icon <?=$workTask['icon']?>"></div>
+                        </div>
+                        <div class="col-md-10">
+                            <h3 class="heading"><?=$workTask['name']?></h3>
+                            <div class="text">
+                                <?=$workTask['description']?> 
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
+            </div>
+            <div class="content row">
+                <div class="input">
+                    <div class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</div>
+                    <div class="btn btn-primary btn-lg" href="#"><i class="fa fa-download"></i>download my cv</div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="section section-dark">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                    <p>====================</p>
-                </div>
-                <div class="col-md-6">
-                    <?php
-                    foreach($skills as $heading => $attributes) {
-                        echo '<h3>'.$heading.'</h3>';
-                        echo '<div class="progress">';
-                        foreach($attributes as $attr => $value) {
-                            echo '<div class="progress-bar" style="width:'.$value.'%">';
-                            echo '<p>'.$attr.'</p>';
-                            echo '</div>';
-                        }
+        <div class="skills" id="#skills">
+            <h2 class="title">Skills</h2>
+            <div class="content row">
+                <?php
+                echo '<div class="col-md-6">';
+                $skillsIndex = 0;
+                $skillsLength = count($skills)/2;
+                foreach($skills as $heading => $attributes) {
+                    if($skillsIndex == $skillsLength){
                         echo '</div>';
-                    } ?>
-                </div>
+                        echo '<div class="col-md-6">';
+                    }
+                    echo '<h3>'.$heading.'</h3>';
+                    echo '<div class="progress">';
+                    foreach($attributes as $attr => $value) {
+                        echo '<div class="progress-bar" style="width:'.$value.'%">';
+                        echo '<p>'.$attr.'</p>';
+                        echo '</div>';
+                    }
+                    echo '</div>';
+                    $skillsIndex++;
+                } 
+                echo '</div>';
+                ?>
             </div>
-            <div class="row">
-                <div class="test">
-                    <div class="test2">
-                        <p>Test</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <h3>More skills</h3>
+        </div>
+        <div class="content row">
+            <h3 class="heading">More skills</h3>
+            <div class="list">
                 <ul>
                     <li>
                         Smart
@@ -200,33 +208,30 @@
     </div>
 
     <div class="section">
-        <div class="container">
-            <h2>Resume</h2>
-            <div class="row">
+        <div class="resume">
+            <h2 class="title">Resume</h2>
+            <div class="content row">
                 <div class="col-md-12">
-                    <h3>Education</h3>
-                    <li>
-                        <div class="posted-date">
-                            <span class="month">2007-2011</span>
-                        </div>
-
-                        <div class="timeline-panel">
-
-                            <div class="timeline-heading">
-                                <h3>Bachelor degree certificate</h3>
-                                <span>BA(Hons) in UI Engineering, Arts University, Pabna, USA</span>
+                    <h3 class="heading">Education</h3>
+                    <div class="list">
+                        <li>
+                            <div class="posted-date">
+                                <span class="month">2007-2011</span>
                             </div>
-
-                            <div class="timeline-body">
-                                <p>I have completed UI Engineering degree from ABC University, Boston, USA at feel the charm of existence in this spot, which was creat.</p>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Bachelor degree certificate</h3>
+                                    <span>BA(Hons) in UI Engineering, Arts University, Pabna, USA</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>I have completed UI Engineering degree from ABC University, Boston, USA at feel the charm of existence in this spot, which was creat.</p>
+                                </div>
                             </div>
                         </li>
-
                         <li class="timeline-inverted">
                             <div class="posted-date">
                                 <span class="month">2004-2006</span>
                             </div>
-
                             <div class="timeline-panel">
                                 <div class="timeline-content">
                                     <div class="timeline-heading">
@@ -240,78 +245,75 @@
                                 </div> 
                             </div> 
                         </li>
-
+                    </div>
+                    <div class="list">
                         <li>
                             <div class="posted-date">
                                 <span class="month">2000-2003</span>
                             </div>
-
                             <div class="timeline-panel">
                                 <div class="timeline-content">
                                     <div class="timeline-heading">
                                         <h3>Secondary school certificate</h3>
                                         <span>Creative Arts, Julius Jr. school, USA</span>
                                     </div>
-
                                     <div class="timeline-body">
                                         <p>I was awesome at arts, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>
                                     </div>
                                 </div> 
                             </div>
                         </li>
-                    </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="resume-title">
-                    <h3>Experience</h3>
-                </div>
-                <div class="resume">
-                    <ul class="timeline">
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month">2011-2013</span>
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Junior ui designer</h3>
-                                        <span>XYZ Design Home, One Street, Boston</span>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-                                    </div>
+            <div class="content row">
+                <div class="col-md-12">
+                    <h3 class="heading">Experience</h3>
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">2011-2013</span>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Junior ui designer</h3>
+                                            <span>XYZ Design Home, One Street, Boston</span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                        </div>
+                                    </div> 
                                 </div> 
-                            </div> 
-                        </li>
-                        <li>
-                            <div class="posted-date">
-                                <span class="month">2013-2015</span>
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Lead UX Consultant</h3>
-                                        <span>Lucky8 Designing Firm, California</span>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>Completely provide access to seamless manufactured products before functionalized synergy. Progressively redefine competitive.</p>
-                                    </div>
-                                </div> 
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">2013-2015</span>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Lead UX Consultant</h3>
+                                            <span>Lucky8 Designing Firm, California</span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Completely provide access to seamless manufactured products before functionalized synergy. Progressively redefine competitive.</p>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="section section-dark">
-        <div class="container">
-            <div class="row">
+        <div class="achievements">
+            <h2 class="title">Achievements</h2>
+            <div class="content row">
                 <div class="col-md-12">
                     <div class="count-wrap">
                         <div class="col-sm-3 col-xs-6">
@@ -341,11 +343,11 @@
     </div>
 
     <div class="section">
-        <div class="container">
-            <h2>Get in touch</h2>
-            <div class="row">
+        <div class="contact">
+            <h2 class="title">Get in Touch</h2>
+            <div class="content row">
                 <div class="col-md-6">
-                    <strong>Send me a message</strong>
+                    <h3 class="heading">Send me a message</h3>
                     <form name="contact" id="contact" action="sendemail.php" method="POST">
                         <div class="form-group">
                             <label for="name">Name</label>
