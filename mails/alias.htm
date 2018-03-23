@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Email aliases</title>
+<meta http-equiv="content-type" Content="text/html;charset=windows-1251">
+<link rel="stylesheet" type="text/css" href="{PREP}/skin/normal.css">
+<script language="Javascript" type="text/javascript" src="{PREP}/INC/email.js"></script>
+</head>
+<body topmargin="3" leftmargin="3" rightmargin="3" bottommargin="3" onLoad="javascript: window.focus();">
+<form name="contact" action="{PREP}/alias.php" method="POST">
+	<h3 align="center" style="{VIS_UNLOG}">Logged in as "{ADMIN}" - <input type="submit" name="logout" class="button3" value="Logout"></h3>
+	<table align="center" class="log" cellspacing="0" cellpadding="2" border="1" bordercolor="black" style="border-collapse:collapse;margin-bottom:5px;{VIS_LOG}">
+		<tr>
+			<td>&nbsp;Username:<input type="text" class="edit" name="log_user" size="25" maxlength="50"></td>
+			<Td>&nbsp;Password:<input type="text" class="edit" name="log_pass" size="25" maxlength="30"></td>
+			<td><input type="submit" name="cmdLogin" class="button3" value="Login"></td>
+		</tr>
+	</table>
+  <div align="center">
+    <a href="{PREP}/domain.php" class="btn btn-yes">Mail accounts</a>
+    &nbsp;&nbsp;
+    <a href="{PREP}/alias.php" class="btn btn-no">Aliases</a>
+  </div>
+  <br>
+	<table>
+		<tr valign="top">
+			<td><table class="list_1" cellspacing="0" cellpadding="4">
+				<caption><b>Aliases for &nbsp;&nbsp;<font color="Red" size="+1">{DOMAIN}</font></b></caption>
+				<tr>
+					<th>Actions</th>
+					<th>Alias</th>
+					<th>Destination (comma separated, if multiple)</th>
+				</tr>
+				<tr style="{VIS_ADMIN}">
+					<td><input type="submit" class="button3" name="cmdVirt" style="width:60pt" value="ADD"></td>
+					<td><input type="text" class="edit" name="virt_name" size="22" maxlength="65"></td>
+					<td><input type="text" class="edit" name="virt_copy" size="120" maxlength="1500"></td>
+				</tr>
+				<tr><td>{VLIST}</td></tr>
+			</table></td>
+		</tr>
+	</table>
+<script language="Javascript" type="text/javascript">
+	<!--{ERROR}-->
+  function FinalConfirm(str1)
+  {
+  	var truthBeTold = window.confirm(str1);
+  	if (truthBeTold) return true; else return false;
+  }
+</script>
+</form>
+</body>
+</html>
