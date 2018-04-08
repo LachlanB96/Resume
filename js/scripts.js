@@ -1,4 +1,12 @@
 $(document).ready(function() {
+    $(".striked-out").hover(function(event){
+        $(".formHover").show();
+    });
+
+
+
+
+
     var sectionPos = Array();
     $.each(
         $(".section > div"),
@@ -8,6 +16,7 @@ $(document).ready(function() {
                 )});
         }
         );
+    
     console.log(sectionPos);
     console.log(window.innerHeight);
     navSticky = false;
@@ -39,7 +48,28 @@ $(document).ready(function() {
             }
         }
     });
+
+    $("#emailButton").click(function(){
+        str = "I like computer lan";
+        futureGoal = "b.com";
+        email = "c";
+        email += String.fromCharCode(118);
+        email += String.fromCharCode(Math.pow(2, 6));
+        email += "la" + "c" + ('h');
+        email += str[16] + str[17] + str[18] ;
+        email += futureGoal;
+        mailTo = "mailto:" + email + "?subject=%5BImportant%5D%5BWebsite%5D%20%3CYour%20Title%20Here%3E&body=";
+        $("#emailPlain").text(email);
+        $("#mailTo").attr("style", "");
+        $("#mailTo > a").attr("href", mailTo);
+    });
 });
 
+function doThis(id){
+    $('#' + jq(id)).toggle();
+    $('.sub' + jq(id)).toggle();
+}
 
-
+function jq( myid ) {
+    return myid.replace( /(:|\/|\+)/g, "\\$1" );
+}

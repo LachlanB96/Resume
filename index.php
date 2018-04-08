@@ -23,19 +23,19 @@
 
     ?>
 
-    
+
 
     <div class="section">
-        <div class="home">
+        <div class="home" id="home">
             <h1 class="title">LachlanB</h1>
             <div class="content">
                 <div class="text">
                     <?=$homeSubtitle?>
                 </div>
                 <div class="box-list">
-                    <?php foreach ($homeIcons as $icon) { ?>
-                    <a href="#"><div class="item <?=$icon?>"></div></a>
-                    <?php } ?>   
+                    <? foreach ($homeIcons as $icon => $link): ?>
+                        <a href=<?=$link?>><div class="item <?=$icon?>"></div></a>
+                    <? endforeach ?>   
                 </div>
                 <i class="fas fa-angle-double-down fa-2x"></i>
             </div>
@@ -45,15 +45,15 @@
     <div class="section section-dark">
         <nav class="navbar navbar-static-top navbar-default navbar-inverse">
             <div class="nav navbar-nav">
-                <?php foreach ($sections as $section) { ?>
-                <li id="<?=$section?>" class="not-active">
-                    <a href="#<?=$section?>">
-                        <div class="item">
-                            <?=$section?>
-                        </div>
-                    </a>
-                </li>
-                <?php } ?>   
+                <? foreach ($sections as $section): ?>
+                    <li id="<?=$section?>Nav" class="not-active">
+                        <a href="#<?=$section?>">
+                            <div class="item">
+                                <?=$section?>
+                            </div>
+                        </a>
+                    </li>
+                <? endforeach ?>   
             </div>
         </nav>
     </div>
@@ -65,11 +65,11 @@
                 <div class="col-md-8">
                     <h3 class="heading">Objective</h3>
                     <div class="text">
-                        <p>An opportunity to work and upgrade oneself, as well as being involved in an organization that believes in gaining a competitive edge and giving back to the community. I'm presently expanding my solid experience in UI / UX design. I focus on using my interpersonal skills to build good user experience and create a strong interest in my employers. I hope to develop skills in motion design and my knowledge of the Web, and become an honest asset to the business. As an individual, I'm self-confident you’ll find me creative, funny and naturally passionate. I’m a forward thinker, which others may find inspiring when working as a team.</p>
+                        <?=$aboutMe_objective?>
                     </div>
                     <h3 class="heading">What I Do?</h3>
                     <div class="text">
-                        I have been working as a web interface designer since. I have a love of clean, elegant styling, and I have lots of experience in the production of CSS3 and HTML5 for modern websites. I loving creating awesome as per my clients’ need. I think user experience when I try to craft something for my clients. Making a design awesome.
+                        <?=$aboutMe_whatIDo?>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -88,19 +88,19 @@
             </div>
             <div class="content content-center-half row">
                 <div class="list">
-                    <?php foreach ($whatIDo as $workTask) { ?>
-                    <div class="item">
-                        <div class="col-md-2">
-                            <div class="icon <?=$workTask['icon']?>"></div>
-                        </div>
-                        <div class="col-md-10">
-                            <h3 class="heading"><?=$workTask['name']?></h3>
-                            <div class="text">
-                                <?=$workTask['description']?> 
+                    <? foreach ($whatIDo as $workTask): ?>
+                        <div class="item">
+                            <div class="col-md-2">
+                                <div class="icon <?=$workTask['icon']?>"></div>
+                            </div>
+                            <div class="col-md-10">
+                                <h3 class="heading"><?=$workTask['name']?></h3>
+                                <div class="text">
+                                    <?=$workTask['description']?> 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <?php } ?>
+                    <? endforeach ?>
                 </div>
             </div>
             <div class="content row">
@@ -113,185 +113,127 @@
     </div>
 
     <div class="section section-dark">
-        <div class="skills" id="#skills">
+        <div class="skills" id="skills">
             <h2 class="title">Skills</h2>
             <div class="content row">
-                <?php
-                echo '<div class="col-md-6">';
-                $skillsIndex = 0;
-                $skillsLength = count($skills)/2;
-                foreach($skills as $heading => $attributes) {
-                    if($skillsIndex == $skillsLength){
-                        echo '</div>';
-                        echo '<div class="col-md-6">';
-                    }
-                    echo '<h3>'.$heading.'</h3>';
-                    echo '<div class="progress">';
-                    foreach($attributes as $attr => $value) {
-                        echo '<div class="progress-bar" style="width:'.$value.'%">';
-                        echo '<p>'.$attr.'</p>';
-                        echo '</div>';
-                    }
-                    echo '</div>';
-                    $skillsIndex++;
-                } 
-                echo '</div>';
-                ?>
+                <?$colours = ['danger', 'success', 'info', 'warning']; ?>
+                <?foreach($skills as $skill => $attributes): ?>
+                    <h3><?=$skill?></h3>
+                    <div class="progress" id="<?=$skill?>" onclick="doThis('<?=$skill?>')">
+                        <? foreach($attributes as $attr => $value): ?>
+                            <div class="progress-bar progress-bar-<?=$colours[$value['colour']]?>" style="width: <?=$value['amount']?>%">
+                                <p><?=$attr?></p>
+                            </div>
+                        <? endforeach ?>
+                    </div>
+                    <?foreach($attributes as $attr => $value): ?>
+                        <h4 style="text-align: center;"><?=$attr?></h4>
+                        <div class="sub<?=$skill?> progress" id="sub<?=$skill?>" style="display:none;">
+                            <?$colour = $value['amount'] < 10 ? 0 : ($value['amount'] < 25 ? 3 : ($value['amount'] < 35 ? 2 : 1))?> 
+                            <?=$colour?>
+                            <div class="progress-bar progress-bar-<?=$colours[$colour]?>" style="width: <?=$value['amount']?>%">iou
+                            </div>
+                        </div>
+                    <? endforeach ?>
+                <? endforeach ?>
             </div>
         </div>
-        <div class="content row">
-            <h3 class="heading">More skills</h3>
-            <div class="list">
-                <ul>
-                    <li>
-                        Smart
-                    </li>
-                    <li>
-                        Smart
-                    </li>
-                    <li>
-                        Smart
-                    </li>
-                    <li>
-                        Smart
-                    </li>
-                    <li>
-                        Smart
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
 
     <div class="section">
-        <div class="resume">
-            <h2 class="title">Resume</h2>
+        <div class="past">
+            <h2 class="title">Experience</h2>
             <div class="content row">
-                <div class="col-md-12">
-                    <h3 class="heading">Education</h3>
-                    <div class="list">
-                        <li>
-                            <div class="posted-date">
-                                <span class="month">2007-2011</span>
+                <div class="left"></div>
+                <div class="timeline">
+                    <div class="event left">
+                        <div class="information">
+                            <div class="date">
+                                2008-2014
                             </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3>Bachelor degree certificate</h3>
-                                    <span>BA(Hons) in UI Engineering, Arts University, Pabna, USA</span>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>I have completed UI Engineering degree from ABC University, Boston, USA at feel the charm of existence in this spot, which was creat.</p>
-                                </div>
+                            <div class="heading">
+                                Second Education
                             </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="posted-date">
-                                <span class="month">2004-2006</span>
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Higher Secondary certificate</h3>
-                                        <span>Typography Arts, FA College, New York, USA</span>
-                                    </div>
-
-                                    <div class="timeline-body">
-                                        <p>From this college of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-                                    </div>
-                                </div> 
-                            </div> 
-                        </li>
+                            <p>Attended Caringbah Selective High School</p>
+                            <p>Obtained remarkable marks such as:<br />
+                                &bull;Band 6 – Software Design and Development<br />
+                                &bull;Band 6 – Design and Technology<br />
+                                &bull;Band 6 – Talented Computing Program<br />
+                            &bull;Band 5 – Information Processes Technology</p>
+                        </div>
                     </div>
-                    <div class="list">
-                        <li>
-                            <div class="posted-date">
-                                <span class="month">2000-2003</span>
+                    <div class="event right" style="display: block">
+                        <div class="information">
+                            <div class="date">
+                                2015-2018
                             </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-content">
-                                    <div class="timeline-heading">
-                                        <h3>Secondary school certificate</h3>
-                                        <span>Creative Arts, Julius Jr. school, USA</span>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>I was awesome at arts, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>
-                                    </div>
-                                </div> 
+                            <div class="heading">
+                                Tertiary Education
                             </div>
-                        </li>
+                            <p>Attended Caringbah Selective High School</p>
+                            <p>Obtained remarkable marks such as:<br />
+                                &bull;Band 6 – Software Design and Development<br />
+                                &bull;Band 6 – Design and Technology<br />
+                                &bull;Band 6 – Talented Computing Program<br />
+                            &bull;Band 5 – Information Processes Technology</p>
+                            <p>Lorem ipsasdsdasdaum..</p>
+                        </div>
+                    </div>
+                    <div class="event left" style="display: block">
+                        <div class="information">
+                            <div class="date">2005</div>
+                            <div class="heading">
+                                Tertiary Education
+                            </div>
+                            <p>Lorem ipsum..</p>
+                        </div>
+                    </div>
+                    <div class="event right">
+                        <div class="information">
+                            <div class="date">2005</div>
+                            <div class="heading">
+                                Tertiary Education
+                            </div>
+                            <p>Lorem ipsum..</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="content row">
-                <div class="col-md-12">
-                    <h3 class="heading">Experience</h3>
-                    <div class="list">
-                        <ul>
-                            <li>
-                                <div class="posted-date">
-                                    <span class="month">2011-2013</span>
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Junior ui designer</h3>
-                                            <span>XYZ Design Home, One Street, Boston</span>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-                                        </div>
-                                    </div> 
-                                </div> 
-                            </li>
-                            <li>
-                                <div class="posted-date">
-                                    <span class="month">2013-2015</span>
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Lead UX Consultant</h3>
-                                            <span>Lucky8 Designing Firm, California</span>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Completely provide access to seamless manufactured products before functionalized synergy. Progressively redefine competitive.</p>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <div class="right"></div>
             </div>
         </div>
     </div>
 
+
+    <a id="achievements"></a>
     <div class="section section-dark">
         <div class="achievements">
             <h2 class="title">Achievements</h2>
             <div class="content row">
                 <div class="col-md-12">
-                    <div class="count-wrap">
-                        <div class="col-sm-3 col-xs-6">
-                            <i class="fa fa-flask"></i>
-                            <h3 class="timer">7</h3>
-                            <p>Years of Experience</p>
-                        </div>
-                        <div class="col-sm-3 col-xs-6"> 
-                            <i class="fa fa-thumbs-up"></i>
-                            <h3 class="timer">651</h3>                
-                            <p>Projects Done</p>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <i class="fa fa-users"></i>
-                            <h3 class="timer">251</h3> 
-                            <p>Happy Clients</p>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <i class="fa fa-trophy"></i>
-                            <h3 class="timer">5</h3> 
-                            <p>Awards Won</p>
-                        </div>
+                    <div class="group">
+                        <div class="number">4</div>
+                        <div class="fa fa-flask fa-3x"></div>
+                        <div class="text">Years of Experience</div>
+                    </div>
+                    <div class="group"> 
+                        <div class="number">21</div>
+                        <div class="fa fa-thumbs-up fa-3x"></div>                
+                        <div class="text">Public Repositories</div>
+                    </div>
+                    <div class="group">
+                        <div class="number">10</div>
+                        <div class="fa fa-users fa-3x"></div> 
+                        <div class="text">Languages Learnt</div>
+                    </div>
+                    <div class="group">
+                        <div class="number">5</div>
+                        <div class="fa fa-trophy fa-3x"></div> 
+                        <div class="text">Awards Won</div>
                     </div>
                 </div>
             </div>
@@ -299,29 +241,29 @@
     </div>
 
     <div class="section">
-        <div class="contact">
+        <div class="contact" name="contact">
             <h2 class="title">Get in Touch</h2>
             <div class="content row">
-                <div class="col-md-6">
+                <div class="col-md-6 striked-out">
                     <h3 class="heading">Send me a message</h3>
-                    <form name="contact" id="contact" action="sendemail.php" method="POST">
+                    <form name="contact">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" id="name" required="">
+                            <input type="text" name="name" class="form-control" disabled>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" name="email" class="form-control" id="email" required="">
+                            <input type="email" name="email" class="form-control" disabled>
                         </div>
                         <div class="form-group">
                             <label for="subject">Subject</label>
-                            <input type="text" name="subject" class="form-control" id="subject">
+                            <input type="text" name="subject" class="form-control" disabled>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea name="message" class="form-control" id="message" rows="5" required=""></textarea>
+                            <textarea name="message" class="form-control" rows="5" disabled></textarea>
                         </div>
-                        <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" name="submit" class="btn btn-disabled">Send Message</button>
                     </form>
                 </div>
                 <div class="col-md-6">
@@ -329,8 +271,8 @@
                         <div class="col-sm-6">
                             <i class="fa fa-map-marker"></i>
                             <address>
-                                <strong>Address/Street:</strong>
-                                <p>239/2 Awesome Street, Boston, USA</p>
+                                <strong>Current Location:</strong>
+                                <p>Cronulla Beach, as well as Sydney CBD on most weekdays</p>
                             </address>
                         </div>
                         <div class="col-sm-6">
@@ -341,9 +283,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="content row formHover">
+                        As a web designer, I feel that these "send me a message" modules never work. I tried testing a very popular one, but to the majorities of its users and my non-suprise, most complained that it did not work due to problem X, Y, Z, A, B, etc. So I decided to just include a mailto URI to contact me. Please press the button to generate my email address (this is to avoid web scrapers spamming the mail)
+                        <button type="button" id="emailButton" class="btn btn-success btn-block">Reveal eMail</button>
+                        <div id="emailPlain"></div>
+                        <div id="mailTo" style="display: none"><a>Click me for a faster experience!</a></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
