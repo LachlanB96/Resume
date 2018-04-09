@@ -5,7 +5,7 @@
     <meta name="keywords" content="Lachlan, Brown, LachlanB, LachlanB.com, Lachlanb.net. LachlanB.org, LachlanB.com.au, Software Developer, Software, Engineer, Architect, Resume, CV, Ethereum, Blockchain, Ether, Bitcoin, Website, Solidity, Smart Contracts, Smart, Contract">
     <title>About LachlanB</title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/test.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto" rel="stylesheet">
     <script src="js/fontawesome-all.js"></script>
@@ -127,11 +127,13 @@
                         <? endforeach ?>
                     </div>
                     <?foreach($attributes as $attr => $value): ?>
-                        <h4 style="text-align: center;"><?=$attr?></h4>
-                        <div class="sub<?=$skill?> progress" id="sub<?=$skill?>" style="display:none;">
-                            <?$colour = $value['amount'] < 10 ? 0 : ($value['amount'] < 25 ? 3 : ($value['amount'] < 35 ? 2 : 1))?> 
-                            <?=$colour?>
-                            <div class="progress-bar progress-bar-<?=$colours[$colour]?>" style="width: <?=$value['amount']?>%">iou
+                        <div class="subProgress sub<?=$skill?>" style="display:none;">
+                            <h4 style="text-align: center;"><?=$attr?></h4>
+                            <div class="progress" id="sub<?=$skill?>">
+                                <?$colour = $value['amount'] < 10 ? 0 : ($value['amount'] < 25 ? 3 : ($value['amount'] < 35 ? 2 : 1))?> 
+                                <?=$colour?>
+                                <div class="progress-bar progress-bar-<?=$colours[$colour]?>" style="width: <?=$value['amount']?>%">iou
+                                </div>
                             </div>
                         </div>
                     <? endforeach ?>
