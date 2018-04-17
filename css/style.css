@@ -140,6 +140,14 @@
     width: 100px;
     padding: 20px;
 }
+.section .about .content .list .item::hover{
+    border: 4px glow red;
+    transform: (1.2, 1.2);
+    transition-time=2s;
+    position: absolute;
+    background-color: #eee;
+    color: #cc3333;
+}
 .section .about .content .list .item .text{
     font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }

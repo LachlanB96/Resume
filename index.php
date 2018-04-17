@@ -208,8 +208,6 @@
         </div>
     </div>
 
-
-    <a id="achievements"></a>
     <div class="section section-dark">
         <div class="achievements">
             <h2 class="title">Achievements</h2>
