@@ -67,6 +67,7 @@ $(document).ready(function() {
 
 function doThis(id){
     $('#' + jq(id)).toggle();
+    $('.sub' + jq(id)).attr('style', 'width=40%');
     $('.sub' + jq(id)).toggle();
 }
 
