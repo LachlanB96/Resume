@@ -12,6 +12,7 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');</script>
 </head>
 <body>
 
@@ -27,7 +28,7 @@
 
     <div class="section">
         <div class="home" id="home">
-            <h1 class="title">LachlanB</h1>
+            <h1 class="title">LachlssdsddfanB</h1>
             <div class="content">
                 <div class="text">
                     <?=$homeSubtitle?>
@@ -76,13 +77,11 @@
                     <div class="biography">
                         <div class="image">
                         </div>
-                        <ul>
-                            <li><strong>Name: </strong>Lachlan Brown</li>
-                            <li><strong>Date of birth: </strong>6th August 1996</li>
-                            <li><strong>Nationality: </strong>Australian</li>
-                            <li><strong>Phone: </strong> Hidden</li>
-                            <li><strong>Email: </strong> enquiry@lachlanb.com</li>
-                        </ul>
+                            <div><strong>Name: </strong>Lachlan Brown</div>
+                            <div><strong>Date of birth: </strong>6th August 1996</div>
+                            <div><strong>Nationality: </strong>Australian</div>
+                            <div><strong>Phone: </strong> Hidden</div>
+                            <div><strong>Email: </strong> enquiry@lachlanb.com</div>
                     </div>
                 </div>
             </div>

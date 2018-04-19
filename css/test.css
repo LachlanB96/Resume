@@ -66,6 +66,12 @@
           border: 1px solid #cc3333;
           animation-name: spinOnSpotOn;
           animation-duration: 1s; }
+.section .about .content .image {
+  margin-bottom: 100px; }
+.section .about .content .biography {
+  text-decoration: none; }
+  .section .about .content .biography ul li {
+    border: 1px solid #cc3333; }
 .section .about .content .list {
   list-style-type: none;
   width: 100%; }
@@ -87,10 +93,6 @@
 .section .skills .content .progress.active {
   border: 1px solid #56b4ef;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 80px rgba(236, 20, 50, 0.6); }
-.section .skills .content .aniDropDown {
-  animation-duration: 5s;
-  animation-fill-mode: both;
-  animation-name: progressBarFadeDown; }
 .section .past {
   padding: 0; }
   .section .past .title {
