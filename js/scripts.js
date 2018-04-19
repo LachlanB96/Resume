@@ -16,7 +16,7 @@ $(document).ready(function() {
                 )});
         }
         );
-
+    
     console.log(sectionPos);
     console.log(window.innerHeight);
     navSticky = false;
@@ -66,10 +66,8 @@ $(document).ready(function() {
 });
 
 function doThis(id){
-    $('#' + jq(id)).toggleClass('active');
-    $('.sub' + jq(id)).addClass('aniDropDown');
+    $('#' + jq(id)).toggle();
     $('.sub' + jq(id)).toggle();
-
 }
 
 function jq( myid ) {

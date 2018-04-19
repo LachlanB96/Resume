@@ -144,17 +144,6 @@
     font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
 
-.section .skills .content .progress.active{
-    border: 1px solid rgb(86, 180, 239);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 80px rgba(236, 20, 50, 0.6);
-}
-
-.section .skills .content .aniDropDown{
-   animation-duration: 5s;
-   animation-fill-mode: both;
-   animation-name: progressBarFadeDown;
-}
-
 .section .past{
     padding: 0;
 }
@@ -393,19 +382,8 @@
     }
 }
 
-@for $i from 1 through 4 {
-  &:nth-of-type(#{$i}) {
-  animation-delay: #{$i * 0.15}s;
-} }
 
-@keyframes progressBarFadeDown{
-    from {
-        transform: translate(0px, -50px);
-    }
-    to {
-        transform: translate(100px, 0px);
-    } 
-}
+
 
 
 @keyframes scrollDown {

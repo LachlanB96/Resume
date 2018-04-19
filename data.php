@@ -8,10 +8,10 @@ $homeIcons = array(
 	"fab fa-telegram"=>"tg://resolve?domain=LachlanB",
 	"fab fa-twitter"=>"https://twitter.com/lachlan_b96",
 	"fa fa-envelope"=>"mailto:cv@lachlanb.com?subject=%5BImportant%5D%5BWebsite%5D%20%3CYour%20Title%20Here%3E&body=",
-	"fab fa-github-square"=>"https://github.com/LachlanB96",
-	"fa fa-graduation-cap"=>"https://www.uts.edu.au/future-students/find-a-course/bachelor-science-information-technology",
-	"fa fa-cogs"=>"javascript:alert('Hello!');",
-	"fab fa-ethereum"=>"#ethereum");
+	"fab fa-github-square",
+	"fa fa-graduation-cap",
+	"fa fa-cogs",
+	"fab fa-ethereum");
 
 $aboutMe_objective = "An oportunity to work and have full commitment to not just upgrading oneself, but to be apart of a bleeding edge technology company and output my talent into a competetive edge to further the company. Currently, I am a fanatic about Ethereum and expand my solid experience in Smart Contract design through my eager work ethic to write Solidity code. I focus on professionality in my work, using my interpersonal skills to build strong relationships with co-workers, allowing a dynamic workplace with clear communication at its core. I hope to learn more about topics such as Blockchain Scaling and Minimum Consensus protocols. As an individual, I am usually uniquely creative, funny, and very passionate about my work. I'm a forward thinker and a great member of any team, as I can easily control when to be ascertive or when to be commanded.";
 

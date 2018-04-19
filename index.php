@@ -5,14 +5,13 @@
     <meta name="keywords" content="Lachlan, Brown, LachlanB, LachlanB.com, Lachlanb.net. LachlanB.org, LachlanB.com.au, Software Developer, Software, Engineer, Architect, Resume, CV, Ethereum, Blockchain, Ether, Bitcoin, Website, Solidity, Smart Contracts, Smart, Contract">
     <title>About LachlanB</title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/test.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto" rel="stylesheet">
     <script src="js/fontawesome-all.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');</script>
 </head>
 <body>
 
@@ -28,7 +27,7 @@
 
     <div class="section">
         <div class="home" id="home">
-            <h1 class="title">LachlssdsddfanB</h1>
+            <h1 class="title">LachlanB</h1>
             <div class="content">
                 <div class="text">
                     <?=$homeSubtitle?>
@@ -77,11 +76,13 @@
                     <div class="biography">
                         <div class="image">
                         </div>
-                            <div><strong>Name: </strong>Lachlan Brown</div>
-                            <div><strong>Date of birth: </strong>6th August 1996</div>
-                            <div><strong>Nationality: </strong>Australian</div>
-                            <div><strong>Phone: </strong> Hidden</div>
-                            <div><strong>Email: </strong> enquiry@lachlanb.com</div>
+                        <ul>
+                            <li><strong>Name: </strong>Lachlan Brown</li>
+                            <li><strong>Date of birth: </strong>6th August 1996</li>
+                            <li><strong>Nationality: </strong>Australian</li>
+                            <li><strong>Phone: </strong> Hidden</li>
+                            <li><strong>Email: </strong> enquiry@lachlanb.com</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -126,13 +127,11 @@
                         <? endforeach ?>
                     </div>
                     <?foreach($attributes as $attr => $value): ?>
-                        <div class="subProgress sub<?=$skill?>" style="display:none;">
-                            <h4 style="text-align: center;"><?=$attr?></h4>
-                            <div class="progress" id="sub<?=$skill?>">
-                                <?$colour = $value['amount'] < 10 ? 0 : ($value['amount'] < 25 ? 3 : ($value['amount'] < 35 ? 2 : 1))?> 
-                                <?=$colour?>
-                                <div class="progress-bar progress-bar-<?=$colours[$colour]?>" style="width: <?=$value['amount']?>%">iou
-                                </div>
+                        <h4 style="text-align: center;"><?=$attr?></h4>
+                        <div class="sub<?=$skill?> progress" id="sub<?=$skill?>" style="display:none;">
+                            <?$colour = $value['amount'] < 10 ? 0 : ($value['amount'] < 25 ? 3 : ($value['amount'] < 35 ? 2 : 1))?> 
+                            <?=$colour?>
+                            <div class="progress-bar progress-bar-<?=$colours[$colour]?>" style="width: <?=$value['amount']?>%">iou
                             </div>
                         </div>
                     <? endforeach ?>
