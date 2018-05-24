@@ -160,7 +160,7 @@
                                 Second Education
                             </div>
                             <p>Attended Caringbah Selective High School</p>
-                            <p>Obtained remarkable marks such as:<br />
+                            <p>Obtained remarkable marks such as: <br />
                                 &bull;Band 6 – Software Design and Development<br />
                                 &bull;Band 6 – Design and Technology<br />
                                 &bull;Band 6 – Talented Computing Program<br />
